@@ -1,0 +1,47 @@
+.comm{
+    list-style: none;
+    overflow: hidden;
+}
+.comm>li{
+    width: 100%;
+    height: 150px;
+    list-style: none;
+    margin-bottom: 20px;
+    background: #fff;
+    box-shadow:0px 2px 8px rgb(228, 228, 228);
+    overflow: hidden;
+    padding: 10px 60px;
+    position: relative;
+
+}
+.comm>li>img{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+  position: absolute;
+  left: 80px;
+  top:60px;
+
+}
+.comm>li>h2{
+    display: inline-block;
+
+  position: absolute;
+  left: 70px;
+  top: 110px;
+
+}
+.comm>li>p{
+    display: block;
+    width: 300px;
+    height: auto;
+    overflow: hidden;
+    background: url(../images/dhk.png) no-repeat;
+    background-size: 100% 100%;
+    min-height: 50px;
+    position: absolute;
+    left: 180px;
+    top: 72px;
+    padding-left: 20px;
+    color: #fff;
+}
